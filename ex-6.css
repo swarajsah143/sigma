@@ -1,0 +1,156 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    nav {
+        /* border: 2px solid black; */
+        padding: 20px;
+
+    }
+
+    .logo {
+        margin-right: auto;
+        margin-left: 80px;
+    }
+
+    nav ol {
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        margin-right: 150px;
+
+    }
+
+    nav ol li {
+        margin: auto 0px;
+        list-style-type: none;
+
+
+    }
+
+    nav ol li a {
+        margin: 10px;
+        text-decoration: none;
+        color: black;
+        font-size: 17px;
+        font-weight: bold;
+    }
+
+    nav ol li a:hover {
+        color: gray;
+    }
+
+    .container {
+        width: 80%;
+        height: 40vh;
+        /* background-color: pink; */
+        margin: 20px auto;
+        text-align: center;
+        padding: 20px;
+
+
+    }
+
+    span {
+        font-weight: bold;
+    }
+
+    h1 {
+        font-weight: 300;
+        font-size: 45px;
+    }
+
+    h3 {
+        width: 75%;
+        margin-left: auto ;
+        margin-right: auto;
+        margin-top: 40px;
+        font-size: 25px;
+        font-weight: 200;
+    }
+
+    button {
+        margin-top: 50px;
+        padding: 20px;
+        border-radius: 10px;
+        border: 0px;
+        background-color: rgb(18, 155, 209);
+        color: white;
+        font-weight: bold;
+        font-size: 14px;
+        cursor: pointer;
+
+    }
+
+    .topic-box {
+        width: 65%;
+        margin: 2px auto;
+        display: flex;
+        flex-direction: row;
+        /* background-color: pink; */
+    }
+
+    .topic-box .square {
+        height: 50px;
+        width: 50px;
+        padding: 10px 3px;
+        border-radius: 5px;
+        background-color: rgb(238, 220, 104);
+        color: black;
+        font-size: 30px;
+        font-weight: bolder;
+        font-style: italic;
+    }
+
+    .topic {
+        /* background-color: firebrick; */
+        padding: 16px;
+        font-size: 22px;
+        font-weight: bold;
+
+    }
+
+    .topic span {
+        margin-left: 5px;
+        font-size: 16px;
+        color: rgb(87, 85, 85);
+        font-weight: lighter;
+    }
+
+    .cards-container {
+        width: 70%;
+        margin: -20px auto;
+        /* background-color: blue; */
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+
+    }
+
+    .card {
+        width: 350px;
+        height: 170px;
+        margin: 20px;
+        text-align: center;
+        background-color: rgb(229, 227, 227);
+    }
+
+    .card button {
+        margin-right: 10px;
+        margin-top: 80px;
+        padding: 10px;
+        height: 40px;
+    }
+    .Btn-2{
+        background-color: rgb(40, 136, 40);
+    }
+    .language-name{
+        position: relative;
+        top: 25%;
+        font-size: 25px;
+        font-weight: bold;
+    }
