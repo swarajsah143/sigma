@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+
+
+}
+
+.clock {
+    height: 450px;
+    width: 450px;
+    border: 2px solid rgb(108, 106, 106);
+    border-radius: 100%;
+    margin-top: 150px;
+    color: wheat;
+    font-size: 1.3em;
+    box-shadow: 0px 0px 20px rgb(172, 170, 170);
+}
+
+.number {
+    position: absolute;
+    text-align: center;
+    margin-top: -130px;
+    transform: rotate(calc(30deg*var(--digits)));
+    inset: 300px;
+}
+
+.center {
+    position: absolute;
+    top: 42.5%;
+    left: 50%;
+    height: 12px;
+    width: 12px;
+    border-radius: 100%;
+    background-color: aqua;
+    z-index: 1;
+}
+
+
+
+.hour {
+    position: absolute;
+    width: 145px;
+    height: 4px;
+    left: 50.2%;
+    top: 42.8%;
+    background-color: wheat;
+}
+
+.min {
+    height: 2px;
+    background-color: wheat;
+    position: absolute;
+    transform: rotate(90deg);
+    width: 160px;
+    z-index: 0;
+    left: 45%;
+    top: 52%;
+}
+
+.sec {
+    position: absolute;
+    transform: rotate(240deg);
+    background-color: wheat;
+    width: 170px;
+    height: 1px;
+    z-index: 0;
+    left: 41.9%;
+    top: 34.3%;
+}
