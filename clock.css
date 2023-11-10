@@ -30,7 +30,7 @@ body {
     text-align: center;
     margin-top: -130px;
     transform: rotate(calc(30deg*var(--digits)));
-    inset: 300px;
+    inset: 14.3em;
 }
 
 .center {
